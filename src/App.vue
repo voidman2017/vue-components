@@ -2,9 +2,11 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/Form">Form</router-link>
+      <router-link to="/Form">Form</router-link>|
+      <router-link to="/Checkbox">Checkbox</router-link>|
+      <router-link to="/Alert">Alert</router-link>|
     </div>
-    <router-view/>
+    <router-view />
   </div>
 </template>
 
