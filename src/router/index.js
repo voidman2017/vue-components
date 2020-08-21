@@ -22,6 +22,12 @@ const routes = [
       import(/* webpackChunkName: "checkbox" */ "../views/Checkbox.vue"),
   },
   {
+    path: "/display",
+    name: "Display",
+    component: () =>
+      import(/* webpackChunkName: "display" */ "../views/Display.vue"),
+  },
+  {
     path: "/alert",
     name: "Alert",
     component: () =>
